@@ -1,0 +1,75 @@
+  <!-- =========================================================================
+       11. Room Details & Reservation Modal
+       ========================================================================= -->
+  <div class="modal-backdrop" id="roomDetailsModal">
+    <div class="modal-card">
+      <button type="button" class="close-modal-btn" aria-label="Close modal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <img id="modalRoomImg" src="" alt="Room detail" class="modal-gallery-img" />
+
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; margin-bottom: 12px; flex-wrap: wrap;">
+        <div>
+          <h2 id="modalRoomTitle" style="font-size: 1.8rem; font-weight: 800; margin-bottom: 6px;">Room Title</h2>
+          <span id="modalRating" style="font-size: 0.9rem; color: #F59E0B; font-weight: 700;">★ 5.0 / 5.0</span>
+        </div>
+        <div id="modalPriceTag" style="font-size: 1.6rem; font-weight: 800; color: #5E4AE3;">$220 / night</div>
+      </div>
+
+      <p id="modalRoomDesc" style="color: #64748B; line-height: 1.65; margin-bottom: 16px;">Detailed description...</p>
+
+      <!-- Key Specs Chips -->
+      <h4 style="font-size: 0.95rem; font-weight: 700; margin-top: 14px;" data-i18n="modalRoomSpecs">تایبەتمەندییە سەرەکییەکان</h4>
+      <div class="modal-specs-grid">
+        <div class="modal-spec-chip" id="modalBeds">1 King Bed</div>
+        <div class="modal-spec-chip" id="modalBaths">1 Bath</div>
+        <div class="modal-spec-chip" id="modalSize">65 m²</div>
+        <div class="modal-spec-chip">City Skyline View</div>
+      </div>
+
+      <h4 style="font-size: 0.95rem; font-weight: 700; margin-top: 18px;" data-i18n="modalIncluded">خزمەتگوزارییە بەردەستەکان</h4>
+      <div class="modal-specs-grid" id="modalAmenitiesContainer">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <!-- Booking Form -->
+      <form id="roomBookingForm" class="booking-form">
+        <div class="form-field">
+          <label for="modalGuestName" data-i18n="guestNameLabel">ناوی چواری میوان</label>
+          <input type="text" id="modalGuestName" class="form-input" required placeholder="Sardar A. Rasool" />
+        </div>
+
+        <div class="form-field">
+          <label for="modalGuestPhone" data-i18n="guestPhoneLabel">ژمارەی تەلەفۆن</label>
+          <input type="tel" id="modalGuestPhone" class="form-input" required placeholder="0750 123 4567" />
+        </div>
+
+        <div class="form-field">
+          <label for="modalCheckIn" data-i18n="checkInLabel">بەرواری هاتن</label>
+          <input type="date" id="modalCheckIn" class="form-input" required />
+        </div>
+
+        <div class="form-field">
+          <label for="modalCheckOut" data-i18n="checkOutLabel">بەرواری دەرچوون</label>
+          <input type="date" id="modalCheckOut" class="form-input" required />
+        </div>
+
+        <div class="form-field form-full-width">
+          <label for="modalGuestEmail" data-i18n="guestEmailLabel">ئیمەیڵ (ئارەزوومەندانە)</label>
+          <input type="email" id="modalGuestEmail" class="form-input" placeholder="guest@example.com" />
+        </div>
+
+        <div class="form-field form-full-width">
+          <label for="modalSpecialRequests" data-i18n="specialNotesLabel">داواکاری تایبەت یان کاتی گەیشتن</label>
+          <input type="text" id="modalSpecialRequests" class="form-input" placeholder="VIP airport shuttle from Erbil Airport, late check-in..." />
+        </div>
+
+        <div class="form-full-width" style="margin-top: 8px;">
+          <button type="submit" id="submitBookingBtn" class="btn-primary" style="width: 100%; height: 52px;">
+            <span data-i18n="confirmBookingBtn">تەواوکردنی حجز و ناردن</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>

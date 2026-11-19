@@ -1,0 +1,27 @@
+  <!-- =========================================================================
+       5. Featured Rooms Grid (Dynamic Backend API)
+       ========================================================================= -->
+  <section class="rooms-section" id="rooms">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-pill section-badge" data-i18n="roomsBadge">هەڵبژاردەی تایبەت</span>
+        <h2 class="section-title" data-i18n="roomsTitle">سویت و ژوورە سەرنجڕاکێشەکانمان</h2>
+        <p class="section-desc" data-i18n="roomsDesc">
+          تەلارسازی سەردەمیانە لەگەڵ کەلوپەلی شاهانە بۆ ئەوەی یادگارییەکی لەبیرنەکراوت لە هەولێر بۆ دروست بکات.
+        </p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="rooms-filter-bar">
+        <button type="button" class="filter-tab active" data-filter="all" data-i18n="tabAll">هەموو ژوورەکان</button>
+        <button type="button" class="filter-tab" data-filter="suites" data-i18n="tabSuites">سویتەکان</button>
+        <button type="button" class="filter-tab" data-filter="penthouses" data-i18n="tabPenthouses">پێنتهاوسەکان</button>
+        <button type="button" class="filter-tab" data-filter="deluxe" data-i18n="tabDeluxe">دێلوکس</button>
+      </div>
+
+      <!-- Dynamic Rooms Cards Grid -->
+      <div class="rooms-grid" id="roomsContainer">
+        <!-- Rendered by /public/js/main.js from Express API /api/v1/rooms -->
+      </div>
+    </div>
+  </section>

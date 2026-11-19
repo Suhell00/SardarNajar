@@ -1,0 +1,42 @@
+  <!-- =========================================================================
+       1. Header / Navbar
+       ========================================================================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="container navbar">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-wrapper">
+        <div class="brand-emblem">
+          <svg viewBox="0 0 24 24">
+            <path d="M19 2H5C3.89 2 3 2.89 3 4V20C3 21.11 3.89 22 5 22H19C20.11 22 21 21.11 21 20V4C21 2.89 20.11 2 19 2ZM11 19H7V15H11V19ZM11 13H7V9H11V13ZM11 7H7V4H11V7ZM17 19H13V15H17V19ZM17 13H13V9H17V13ZM17 7H13V4H17V7Z"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title" data-i18n="hotelName">سکای تاوەر</span>
+          <span class="brand-subtitle" data-i18n="hotelLocation">هەولێر</span>
+        </div>
+      </a>
+
+      <!-- Navigation Menu: Concise & Clean Single-Word Items -->
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link active" data-i18n="navHome">سەرەتا</a></li>
+        <li><a href="#rooms" class="nav-link" data-i18n="navRooms">ژوورەکان</a></li>
+        <li><a href="#amenities" class="nav-link" data-i18n="navAmenities">خزمەتگوزاری</a></li>
+        <li><a href="#reviews" class="nav-link" data-i18n="navReviews">بۆچوونەکان</a></li>
+        <li><a href="#footer" class="nav-link" data-i18n="navContact">پەیوەندی</a></li>
+      </ul>
+
+      <!-- Nav Actions (Language Switcher + Book Now CTA) -->
+      <div class="nav-actions">
+        <!-- Language Switcher: Kurdish (Sorani), Arabic, English -->
+        <div class="lang-switcher">
+          <button type="button" class="lang-btn active" data-lang="ku">کوردی</button>
+          <button type="button" class="lang-btn" data-lang="ar">عربي</button>
+          <button type="button" class="lang-btn" data-lang="en">English</button>
+        </div>
+
+        <button type="button" class="btn-primary" onclick="scrollToBookingBar()">
+          <span data-i18n="bookNowBtn">حجزکردن</span>
+        </button>
+      </div>
+    </div>
+  </header>

@@ -1,0 +1,130 @@
+// EN translations
+export default {
+    // Brand & Navigation
+    hotelName: 'Sky Tower',
+    hotelLocation: 'Erbil',
+    navHome: 'Home',
+    navRooms: 'Rooms',
+    navWhy: 'Why Sky Tower',
+    navSteps: 'How to Book',
+    navAmenities: 'Amenities',
+    navReviews: 'Reviews',
+    navContact: 'Contact',
+    bookNowBtn: 'Book Now',
+
+    // Hero Section
+    heroBadge: '5-Star Luxury Certified in Erbil',
+    heroHeadline: 'Experience Royal Luxury at Sky Tower Erbil',
+    heroSubtitle: 'Unrivaled sophistication, panoramic skyline vistas, and authentic Kurdish hospitality located in the heart of Erbil along prestigious Gulan Street.',
+    
+    // Booking Bar
+    checkInLabel: 'Check-In Date',
+    checkOutLabel: 'Check-Out Date',
+    roomTypeLabel: 'Room Type',
+    guestsLabel: 'Guests',
+    allTypes: 'All Suites & Rooms',
+    deluxeOption: 'Sky Deluxe Suite',
+    panoramicOption: 'Tower Panoramic Suite',
+    presidentialOption: 'Royal Presidential Penthouse',
+    executiveOption: 'Executive Business Suite',
+    penthouseOption: 'Crown Sky Penthouse',
+    checkAvailabilityBtn: 'Check Availability',
+
+    // Feature Bar
+    featServiceTitle: '24/7 Room Service',
+    featServiceDesc: 'Gourmet dining & dedicated butler at any hour',
+    featSkylineTitle: 'Prime Erbil Skyline',
+    featSkylineDesc: 'Sweeping city panoramas overlooking Gulan Street',
+    featRateTitle: 'Best Rate Guarantee',
+    featRateDesc: 'Direct reservation with verified premium packages',
+    featCertTitle: '5-Star Luxury Certified',
+    featCertDesc: 'International excellence in hygiene & bespoke comfort',
+
+    // Why Choose Section
+    whyBadge: 'Unmatched Sophistication',
+    whyTitle: 'Why Choose Sky Tower Erbil?',
+    whyDesc: 'Sky Tower is more than an address—it is an extraordinary sanctuary in Erbil offering unrivaled tranquility, majestic panoramas, and world-class service customized to your preferences.',
+    whyCheck1: 'Prime location along prestigious Gulan Street, minutes from Dream City',
+    whyCheck2: 'Complimentary luxury VIP transfers from Erbil International Airport (EIA)',
+    whyCheck3: 'Celebrated fine-dining restaurants serving authentic Kurdish & international cuisine',
+    whyCheck4: 'Heated panoramic rooftop pool, private jacuzzis, and luxury wellness spa',
+    statGuests: 'Delighted Guests Annually',
+    statRooms: 'Suites & Penthouses',
+    statRating: 'Average Guest Score',
+
+    // Rooms Section
+    roomsBadge: 'Curated Collection',
+    roomsTitle: 'Featured Rooms & Luxury Suites',
+    roomsDesc: 'Floor-to-ceiling glass architecture with Italian designer furnishings, offering unforgettable stays in Erbil.',
+    tabAll: 'All Rooms',
+    tabSuites: 'Suites',
+    tabPenthouses: 'Penthouses',
+    tabDeluxe: 'Deluxe',
+    perNight: '/ night',
+    beds: 'Beds',
+    baths: 'Baths',
+    sqm: 'm² Size',
+    viewDetailsBtn: 'View Details',
+    reserveBtn: 'Reserve Suite',
+
+    // 3-Step Guide
+    stepsBadge: 'Seamless Process',
+    stepsTitle: 'How to Book in 3 Simple Steps',
+    stepsDesc: 'Our direct booking engine secures your stay with immediate confirmation in seconds.',
+    step1Title: '1. Choose Your Suite',
+    step1Desc: 'Browse our signature suites and presidential penthouses with customized floorplans.',
+    step2Title: '2. Select Dates & Services',
+    step2Desc: 'Pick your check-in and check-out days, and include complimentary VIP airport pickup.',
+    step3Title: '3. Instant Confirmation',
+    step3Desc: 'Receive your verified booking voucher instantly. Our concierge team is ready to welcome you.',
+
+    // Testimonials
+    reviewsBadge: 'Verified Reviews',
+    reviewsTitle: 'What Our Esteemed Guests Say',
+    reviewsDesc: 'Read genuine impressions from global executives and distinguished travelers who stayed at Sky Tower.',
+    rev1Text: 'Staying at the Royal Presidential Penthouse was the pinnacle of my time in Erbil. The skyline vistas, the private jacuzzi, and the 24/7 butler service were truly 5-star.',
+    rev1Name: 'Dr. Aram Barzani',
+    rev1Loc: 'Erbil, Kurdistan',
+    rev2Text: 'My preferred residence during every corporate trip to Erbil. Ultra-fast internet, soundproof suites, and the executive lounge make doing business effortless.',
+    rev2Name: 'Sardar Mahmoud',
+    rev2Loc: 'Sulaymaniyah, Kurdistan',
+    rev3Text: 'The Tower Panoramic Suite was beyond breathtaking! The glass balcony overlooks Erbil Citadel and Gulan Street. Highly recommended to anyone traveling to Kurdistan.',
+    rev3Name: 'Soran Kamal',
+    rev3Loc: 'Duhok, Kurdistan',
+
+    // Amenities Strip
+    amenitiesTitle: 'Signature Amenities at Sky Tower',
+    amenitiesSub: 'Elevated lifestyle and effortless comfort at every touchpoint',
+    am1: 'Heated Rooftop Infinity Pool',
+    am2: 'Luxury Turkish Hammam & Spa',
+    am3: 'Gourmet Rooftop Sky Lounge & Bar',
+    am4: 'Private Erbil Airport VIP Shuttle',
+    am5: 'High-Tech Technogym Fitness Center',
+    am6: 'Executive Meeting & Boardroom Suites',
+
+    // Footer
+    footerDesc: 'Sky Tower Erbil is the premier 5-star luxury hotel in Kurdistan, uniting refined modern architecture with warm Kurdish hospitality.',
+    footerQuickLinks: 'Quick Links',
+    footerContactTitle: 'Contact & Location',
+    footerAddress: 'Gulan Street, Near Dream City, Erbil, Kurdistan Region',
+    footerPhone: '07501303137',
+    footerRights: 'All Rights Reserved. Sky Tower Hotel Erbil © 2026',
+
+    // Modal & Booking
+    modalRoomSpecs: 'Key Room Specifications',
+    modalIncluded: 'Included Luxury Amenities',
+    guestNameLabel: 'Full Guest Name',
+    guestPhoneLabel: 'Phone / WhatsApp Number',
+    guestEmailLabel: 'Email Address (Optional)',
+    specialNotesLabel: 'Special Requests / Arrival Time',
+    confirmBookingBtn: 'Confirm Reservation Now',
+    bookingSuccessTitle: 'Reservation Confirmed Successfully!',
+    bookingSuccessMsg: 'Thank you for choosing Sky Tower Erbil. Our guest relations team has locked in your suite and will contact you prior to arrival.',
+    voucherRef: 'Booking Reference:',
+    voucherRoom: 'Room / Suite:',
+    voucherDates: 'Dates:',
+    voucherNights: 'Duration:',
+    voucherTotal: 'Total Cost:',
+    voucherHotline: 'Hotel Hotline:',
+    closeModal: 'Close'
+};

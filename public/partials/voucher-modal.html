@@ -1,0 +1,54 @@
+  <!-- =========================================================================
+       12. Success Confirmation Voucher Modal
+       ========================================================================= -->
+  <div class="modal-backdrop" id="successVoucherModal">
+    <div class="modal-card" style="max-width: 580px;">
+      <button type="button" class="close-modal-btn" aria-label="Close modal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="voucher-card">
+        <div class="voucher-icon-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+
+        <h2 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 8px;" data-i18n="bookingSuccessTitle">
+          حجزەکەت بە سەرکەوتوویی تۆمارکرا!
+        </h2>
+        <p style="color: #64748B; font-size: 0.95rem; margin-bottom: 16px;" data-i18n="bookingSuccessMsg">
+          سوپاس بۆ هەڵبژاردنی سکای تاوەر هەولێر. تیمەکەمان بەم زووانە پەیوەندیت پێوە دەکات بۆ پشتڕاستکردنەوەی کۆتایی.
+        </p>
+
+        <div class="voucher-details-box">
+          <div class="voucher-row">
+            <span class="voucher-label" data-i18n="voucherRef">کۆدی حجز (Reference):</span>
+            <span class="voucher-val" id="voucherBookingId" style="color: #5E4AE3;">ST-ERB-000000</span>
+          </div>
+          <div class="voucher-row">
+            <span class="voucher-label">Guest Name:</span>
+            <span class="voucher-val" id="voucherGuest">Guest Name</span>
+          </div>
+          <div class="voucher-row">
+            <span class="voucher-label" data-i18n="voucherRoom">سویت / ژوور:</span>
+            <span class="voucher-val" id="voucherRoomName">Sky Deluxe Suite</span>
+          </div>
+          <div class="voucher-row">
+            <span class="voucher-label" data-i18n="voucherDates">بەروار:</span>
+            <span class="voucher-val" id="voucherDatesVal">Dates</span>
+          </div>
+          <div class="voucher-row">
+            <span class="voucher-label" data-i18n="voucherTotal">کۆی گشتی:</span>
+            <span class="voucher-val" id="voucherPriceVal" style="color: #10B981;">$440 USD</span>
+          </div>
+          <div class="voucher-row">
+            <span class="voucher-label" data-i18n="voucherHotline">هێڵی ڕاستەوخۆ:</span>
+            <span class="voucher-val" id="voucherPhoneVal">07501303137</span>
+          </div>
+        </div>
+
+        <button type="button" class="btn-primary" style="width: 100%;" onclick="closeAllModals()">
+          <span data-i18n="closeModal">داخستن</span>
+        </button>
+      </div>
+    </div>
+  </div>
